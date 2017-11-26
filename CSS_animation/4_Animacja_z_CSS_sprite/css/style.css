@@ -1,0 +1,22 @@
+.zombie {
+  width: 200px;
+  height: 312px;
+  background: url("http://www.wdrfree.com/public/demos/animatespritekeyframes/walkingdead.png") no-repeat; }
+
+@-webkit-keyframes ruch_zombiaka {
+  0% {
+    background-position: 0 0; }
+  100% {
+    background-position: -2000px 0; } }
+
+@keyframes ruch_zombiaka {
+  0% {
+    background-position: 0 0; }
+  100% {
+    background-position: -2000px 0; } }
+
+#zombie_1 {
+  -webkit-animation: ruch_zombiaka 0.5s steps(10) infinite;
+          animation: ruch_zombiaka 0.5s steps(10) infinite; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxhQUFZO0VBQ1osY0FBYTtFQUNiLHdHQUFzRyxFQUV2Rzs7QUFFRDtFQUVFO0lBQUsseUJBQXdCLEVBQUE7RUFDN0I7SUFBTywrQkFBOEIsRUFBQSxFQUFBOztBQUh2QztFQUVFO0lBQUsseUJBQXdCLEVBQUE7RUFDN0I7SUFBTywrQkFBOEIsRUFBQSxFQUFBOztBQUd2QztFQUNFLHlEQUFnRDtVQUFoRCxpREFBZ0QsRUFDakQiLCJmaWxlIjoic3R5bGUuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnpvbWJpZSB7XG4gIHdpZHRoOjIwMHB4O1xuICBoZWlnaHQ6MzEycHg7XG4gIGJhY2tncm91bmQ6dXJsKCdodHRwOi8vd3d3LndkcmZyZWUuY29tL3B1YmxpYy9kZW1vcy9hbmltYXRlc3ByaXRla2V5ZnJhbWVzL3dhbGtpbmdkZWFkLnBuZycpIG5vLXJlcGVhdDtcblxufVxuXG5Aa2V5ZnJhbWVzIHJ1Y2hfem9tYmlha2FcbntcbiAgMCUgeyBiYWNrZ3JvdW5kLXBvc2l0aW9uOjAgMDt9XG4gIDEwMCUgeyBiYWNrZ3JvdW5kLXBvc2l0aW9uOi0yMDAwcHggMDsgfVxufVxuXG4jem9tYmllXzEge1xuICBhbmltYXRpb246IHJ1Y2hfem9tYmlha2EgMC41cyBzdGVwcygxMCkgaW5maW5pdGU7XG59Il19 */

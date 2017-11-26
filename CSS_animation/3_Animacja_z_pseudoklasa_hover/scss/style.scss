@@ -1,0 +1,13 @@
+
+.red-button {
+  width: 100px;
+  height:100px;
+  background-color: red;
+  -webkit-transition: width 15s; /* Safari */
+  transition: width 15s;
+    &:hover {
+      height: 2px;
+
+  }
+}
+

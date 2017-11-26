@@ -1,0 +1,16 @@
+.tooltip {
+  text-decoration: underline;
+  color: darkblue;
+  position: relative;
+  display: inline-block; }
+
+.tooltipText {
+  position: absolute;
+  top: 100%;
+  display: block;
+  background-color: white;
+  color: black;
+  border: solid black 1px;
+  z-index: 1; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSwyQkFBMkI7RUFDM0IsZ0JBQWdCO0VBQ2hCLG1CQUFtQjtFQUNuQixzQkFBc0IsRUFDdkI7O0FBRUQ7RUFDRSxtQkFBbUI7RUFDbkIsVUFBVTtFQUNWLGVBQWU7RUFDZix3QkFBd0I7RUFDeEIsYUFBYTtFQUNiLHdCQUF3QjtFQUN4QixXQUFXLEVBQ1oiLCJmaWxlIjoic3R5bGUuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnRvb2x0aXAge1xuICB0ZXh0LWRlY29yYXRpb246IHVuZGVybGluZTtcbiAgY29sb3I6IGRhcmtibHVlO1xuICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbn1cblxuLnRvb2x0aXBUZXh0IHtcbiAgcG9zaXRpb246IGFic29sdXRlO1xuICB0b3A6IDEwMCU7XG4gIGRpc3BsYXk6IGJsb2NrO1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTtcbiAgY29sb3I6IGJsYWNrO1xuICBib3JkZXI6IHNvbGlkIGJsYWNrIDFweDtcbiAgei1pbmRleDogMTtcbn1cbiJdfQ== */

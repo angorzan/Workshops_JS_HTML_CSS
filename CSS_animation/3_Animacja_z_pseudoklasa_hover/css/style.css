@@ -1,0 +1,10 @@
+.red-button {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  /* Safari */
+  transition: width 15s; }
+  .red-button:hover {
+    height: 2px; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQ0E7RUFDRSxhQUFhO0VBQ2IsY0FBYTtFQUNiLHNCQUFzQjtFQUNVLFlBQVk7RUFDNUMsc0JBQXNCLEVBS3ZCO0VBVkQ7SUFPTSxZQUFZLEVBRWYiLCJmaWxlIjoic3R5bGUuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiXG4ucmVkLWJ1dHRvbiB7XG4gIHdpZHRoOiAxMDBweDtcbiAgaGVpZ2h0OjEwMHB4O1xuICBiYWNrZ3JvdW5kLWNvbG9yOiByZWQ7XG4gIC13ZWJraXQtdHJhbnNpdGlvbjogd2lkdGggMTVzOyAvKiBTYWZhcmkgKi9cbiAgdHJhbnNpdGlvbjogd2lkdGggMTVzO1xuICAgICY6aG92ZXIge1xuICAgICAgaGVpZ2h0OiAycHg7XG5cbiAgfVxufVxuXG4iXX0= */

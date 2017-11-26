@@ -1,0 +1,16 @@
+.zombie {
+  width:200px;
+  height:312px;
+  background:url('http://www.wdrfree.com/public/demos/animatespritekeyframes/walkingdead.png') no-repeat;
+
+}
+
+@keyframes ruch_zombiaka
+{
+  0% { background-position:0 0;}
+  100% { background-position:-2000px 0; }
+}
+
+#zombie_1 {
+  animation: ruch_zombiaka 0.5s steps(10) infinite;
+}

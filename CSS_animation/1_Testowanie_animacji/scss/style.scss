@@ -1,0 +1,16 @@
+.violet-bell {
+  width:80px;
+  height:80px;
+  border-radius: 50%;
+  background-color: violet;
+  animation: pulsowanie 3s infinite alternate;
+  -moz-animation: pulsowanie 3s infinite alternate;
+  -webkit-animation: pulsowanie 3s infinite alternate;
+  transform: scale(1.6) skew(-20deg) rotate(10deg);
+}
+
+@keyframes pulsowanie
+{
+  0% {width:80px;}
+  100% {width:500px;}
+}
